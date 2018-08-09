@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: XKTQz9YQmcskQF8vROUgsYYNyPARTb/uNozhQJLmhVo4gSXG/cHOAEszfDnA3JcSoDm6LlKqd2hsG04XJ4goiuAqHuLqb/p/0CmS59uTXIv1f7THKknBEpk6AqEVNPhElSI2tCf1fSq5YzHolKqX/H3j1Yy1p7VsSrmM2LHMNASNDMEk3mFIvHHr5EJ4dw+E0gibrI+9O0NwEF68TFZ3RfDbgS3XDYgIFIdg9Ld49nZpxy7PUyS0n/kDlnK8ic9ezt+q4H1xrfIpFOmwEWC/w//08hdgGnUfI2GTfwN0LpGLWYIMvEfndpBPKxHXbnUl7c5nVHQ8JM+ZritJzvc5pZ8Pj4hYNOjcCT9pp54j/zQRFql9CtDyBklZpyY8Z6ZLp0mbKy+QP5F54Zjm5ysJyFzxCtlKxvr3RwFVCQn6oXfYCDT2IL9H1aD6gBjgtvVau9IQNIFSjO9hFP2AsORustB6L0/MCwEhX0jAIqf5wkhlcpUfUE5Y49qgYtcsWGAHtrhMOJl5NIMLsSPG91NdCbTeHinkZ1/pL9LMQu1tzoBc0YdybLKqdrB2DTH/YvXfa8vP5vjYwNohQaoRUu4wxp5/ZQ4vOOxTvHdXRur6AFbsxEorQGWhPUKl5BTgdo5RSlWJQWNKB+whqA/uikubxWwcG8HH6Op0tY2BnoGrTz4=
+  app: ancient-shelf-88886
+  on:
+    repo: BlitzDampfwalze/node-shopping-list-integration-tests
