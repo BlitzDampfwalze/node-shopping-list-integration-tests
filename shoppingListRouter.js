@@ -70,7 +70,7 @@ router.put("/:id", (req, res) => {
     name: req.body.name,
     checked: req.body.checked
   });
-  res.status(200).json(updatedItem);
+  res.status(204).json(updatedItem);
 });
 
 module.exports = router;

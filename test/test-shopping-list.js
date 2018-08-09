@@ -102,7 +102,7 @@ describe("Shopping List", function() {
       checked: true
     };
 
-    return (
+    return 
       chai
         .request(app)
         // first have to get so we have an idea of object to update
@@ -122,12 +122,11 @@ describe("Shopping List", function() {
         // prove that the PUT request has right status code
         // and returns updated item
         .then(function(res) {
-          expect(res).to.have.status(200);
-          expect(res).to.be.json;
-          expect(res.body).to.be.a("object");
-          expect(res.body).to.deep.equal(updateData);
+          expect(res).to.have.status(204);
+        ////////   expect(res).to.be.json;
+        ////////   expect(res.body).to.be.a("object");
+        ////////   expect(res.body).to.deep.equal(updateData);
         })
-    );
   });
 
   // test strategy:
@@ -142,7 +141,8 @@ describe("Shopping List", function() {
         // to delete
         .get("/shopping-list")
         .then(function(res) {
-          return chai.request(app).delete(`/shopping-list/${res.body[0].id}`);
+          return chai.request(app)
+            .delete(`/shopping-list/${res.body[0].id}`);
         })
         .then(function(res) {
           expect(res).to.have.status(204);
