@@ -4,6 +4,6 @@ deploy:
   provider: heroku
   api_key:
     secure: cMk3V3BL5hnTd24aDsZurYSe+/aYG8XYQTFFxtFGkAmJwQdI0Qey4OcswozJ5L7fYB4b86/pr9UPMKVp7kWCkI0rvAHrs0f+V3XUojFfQ+PmQ+MpdIY30ET1nW4OtfkxNk0LLBYov8m5P5E/DTbHyfijXnZVnzFLx1nyVQYINzWY+OPCwlKSzblk5FrK1q+N4uavjZLAA2LsQu1F7DjBnTrfLZqDp+mMV3NppJyzipeLJknH83XekoBD1E3ekVwnx+4cn9dnDMT6X8mHK3hkrI5qbomqH77kBa6yhiHkPf7Irj0PolA/ZrPZbSsNxOQEvmPDDPL18eELUa2vTasLP4CGjmfi94L877+hgERVuckEjQ/PRWNBU9BZq+ms3C2So2qAP9eWxv40JleDNGTVj3qpd09/RDZ8tKoKaF43RB6geE2kDZojgJ8hhJk6giDfJtbw9toVBvDpVyzwG+niMK4KtpXY0tbOmLwIfBbWeJk6RMvrFS9Hlb75R7r/+DH7Luk+jaEL2D/fhNZRM7xJnCy8tmdBo2KgZK7xJQ+WwctoPKkKMDpITlEv1xu9ZwsUJ1nhhdOeg/UUp9eAcAKIAWKCskRVJllw7kSjle0/dpqWkbItcfx+4IM2drniJusoXblmcrrSoW/aTIhLR+Nu7f4Eqaecf6aNtBhqqRcVLtI=
-  app: node-shopping-list-integration-tests
+  app: protected-temple-26211
   on:
     repo: BlitzDampfwalze/node-shopping-list-integration-tests
